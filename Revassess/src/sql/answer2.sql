@@ -1,0 +1,1 @@
+INSERT INTO APP_USER VALUES (123, 'user', 'password1', 'John', 'Smith', (SELECT role_id FROM USER_ROLE WHERE name = 'PREMIUM_USER'))
